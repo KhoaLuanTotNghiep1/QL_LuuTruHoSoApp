@@ -16,7 +16,7 @@ namespace QL_LuuTruHoSo
 
 
     [Activity(Label = "MainActivity")]
-    public class MainActivity : AppCompatActivity
+    public class MainActivity : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
     {
         BottomNavigationView navView;
         EditText search;
@@ -29,19 +29,20 @@ namespace QL_LuuTruHoSo
             SetContentView(Resource.Layout.activity_main);
 
             search = FindViewById<EditText>(Resource.Id.search_view);
-            navView = FindViewById< BottomNavigationView >(Resource.Id.nav_view);
+            navView = FindViewById<BottomNavigationView>(Resource.Id.nav_view);
+
+            navView.SetOnNavigationItemSelectedListener(this);
 
             search.Click += delegate
             {
                 Intent intent = new Intent(this, typeof(SearchActivity));
                 StartActivity(intent);
             };
-
-
         }
-        public Boolean onNavigationItemSelected(IMenuItem item)
+        [Obsolete]
+        public bool OnNavigationItemSelected(IMenuItem item)
         {
-            Fragment fragment; 
+            Fragment fragment;
             switch (item.ItemId)
             {
                 case Resource.Id.navigation_tlvb:
@@ -49,27 +50,36 @@ namespace QL_LuuTruHoSo
                     fragment = new TLVBFragment();
                     loadFragment(fragment);
                     return true;
-                case R.id.navigation_home:
-                    //                    getSupportActionBar().setTitle("Home");
-                    fragment = new HomeFragment();
+                case Resource.Id.navigation_vbmuon:
+                  
+                    fragment = new VBMuonFragment();
                     loadFragment(fragment);
                     return true;
-                case R.id.navigation_notifications:
-                    //                    getSupportActionBar().setTitle("Notification");
-                    fragment = new NotificationsFragment();
+                case Resource.Id.navigation_thongke:
+                    
+                    fragment = new ThongKeFragment();
+                    loadFragment(fragment);
+                    return true;
+
+                case Resource.Id.navigation_nguoidung:
+
+                    fragment = new NguoiDungFragment();
                     loadFragment(fragment);
                     return true;
 
             }
             return false;
         }
-    };
 
-    private void loadFragment(Fragment fragment)
-    {
-        // load fragment
-        FragmentTransaction transaction = FragmentManager.BeginTransaction();
-        transaction.Replace(Resource.Id.nav_host_fragment, fragment);
-        transaction.AddToBackStack(null);
-        transaction.Commit();
+        [Obsolete]
+        private void loadFragment(Fragment fragment)
+        {
+            // load fragment
+            FragmentTransaction transaction = FragmentManager.BeginTransaction();
+            transaction.Replace(Resource.Id.nav_host_fragment, fragment);
+            transaction.AddToBackStack(null);
+            transaction.Commit();
+        }
+
     }
+}

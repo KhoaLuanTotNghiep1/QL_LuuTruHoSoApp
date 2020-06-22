@@ -5625,10 +5625,10 @@ namespace QL_LuuTruHoSo
 			public const int textView = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int textView2 = 2131230934;
+			public const int textView4 = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int textView4 = 2131230935;
+			public const int textViewTenVB = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
 			public const int text_input_password_toggle = 2131230936;

@@ -318,3 +318,10 @@ D:\QL_LuuTruHoSo\QL_LuuTruHoSo\obj\Debug\90\android\assets\System.Text.Encodings
 D:\QL_LuuTruHoSo\QL_LuuTruHoSo\obj\Debug\90\android\assets\System.Text.Json.dll
 D:\QL_LuuTruHoSo\QL_LuuTruHoSo\obj\Debug\90\android\assets\System.Threading.Tasks.Extensions.dll
 D:\QL_LuuTruHoSo\QL_LuuTruHoSo\obj\Debug\90\android\src\crc64b8cb4c3ae5510ff0\EDMTDialog.java
+C:\Users\Acer\OneDrive\Tài liệu\QL_LuuTruHoSoApp\QL_LuuTruHoSo\QL_LuuTruHoSo\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\Acer\OneDrive\Tài liệu\QL_LuuTruHoSoApp\QL_LuuTruHoSo\QL_LuuTruHoSo\obj\Debug\90\build.props
+C:\Users\Acer\OneDrive\Tài liệu\QL_LuuTruHoSoApp\QL_LuuTruHoSo\QL_LuuTruHoSo\obj\Debug\90\adb.props
+C:\Users\Acer\OneDrive\Tài liệu\QL_LuuTruHoSoApp\QL_LuuTruHoSo\QL_LuuTruHoSo\obj\Debug\90\QL_LuuTruHoSo.csprojAssemblyReference.cache
+C:\Users\Acer\OneDrive\Tài liệu\QL_LuuTruHoSoApp\QL_LuuTruHoSo\QL_LuuTruHoSo\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
+C:\Users\Acer\OneDrive\Tài liệu\QL_LuuTruHoSoApp\QL_LuuTruHoSo\QL_LuuTruHoSo\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\Acer\OneDrive\Tài liệu\QL_LuuTruHoSoApp\QL_LuuTruHoSo\QL_LuuTruHoSo\obj\Debug\90\res.flag

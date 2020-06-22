@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hgLQ7OonfqSGBDqZ8/Kjy9C1DoyrjMxsFhSFt68oxnxNtpguxSe/srX2McnmvtfqvM9KgH4vzXV1u3oaCNBrtw==",
+  "dgSpecHash": "GNORM+n1r/j976/1mSJTvI+gwEEpfir+mEawAyFRRviESVxK7g7vR0rZ4Zg6V1SWjltRs7t8jAGLKukDmyYa/A==",
   "success": true,
-  "projectFilePath": "D:\\QL_LuuTruHoSo\\QL_LuuTruHoSo\\QL_LuuTruHoSo.csproj",
+  "projectFilePath": "C:\\Users\\Acer\\OneDrive\\Tài liệu\\QL_LuuTruHoSoApp\\QL_LuuTruHoSo\\QL_LuuTruHoSo\\QL_LuuTruHoSo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\edmtdialog\\1.0.2\\edmtdialog.1.0.2.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\jquery\\2.1.1\\jquery.2.1.1.nupkg.sha512",

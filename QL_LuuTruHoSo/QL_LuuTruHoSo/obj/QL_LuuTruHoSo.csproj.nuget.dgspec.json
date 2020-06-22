@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\QL_LuuTruHoSo\\QL_LuuTruHoSo\\QL_LuuTruHoSo.csproj": {}
+    "C:\\Users\\Acer\\OneDrive\\Tài liệu\\QL_LuuTruHoSoApp\\QL_LuuTruHoSo\\QL_LuuTruHoSo\\QL_LuuTruHoSo.csproj": {}
   },
   "projects": {
-    "D:\\QL_LuuTruHoSo\\QL_LuuTruHoSo\\QL_LuuTruHoSo.csproj": {
+    "C:\\Users\\Acer\\OneDrive\\Tài liệu\\QL_LuuTruHoSoApp\\QL_LuuTruHoSo\\QL_LuuTruHoSo\\QL_LuuTruHoSo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\QL_LuuTruHoSo\\QL_LuuTruHoSo\\QL_LuuTruHoSo.csproj",
+        "projectUniqueName": "C:\\Users\\Acer\\OneDrive\\Tài liệu\\QL_LuuTruHoSoApp\\QL_LuuTruHoSo\\QL_LuuTruHoSo\\QL_LuuTruHoSo.csproj",
         "projectName": "QL_LuuTruHoSo",
-        "projectPath": "D:\\QL_LuuTruHoSo\\QL_LuuTruHoSo\\QL_LuuTruHoSo.csproj",
+        "projectPath": "C:\\Users\\Acer\\OneDrive\\Tài liệu\\QL_LuuTruHoSoApp\\QL_LuuTruHoSo\\QL_LuuTruHoSo\\QL_LuuTruHoSo.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "D:\\QL_LuuTruHoSo\\QL_LuuTruHoSo\\obj\\",
+        "outputPath": "C:\\Users\\Acer\\OneDrive\\Tài liệu\\QL_LuuTruHoSoApp\\QL_LuuTruHoSo\\QL_LuuTruHoSo\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

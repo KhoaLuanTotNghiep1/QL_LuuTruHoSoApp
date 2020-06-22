@@ -1,1 +1,24 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"><item android:id="@+id/navigation_home" android:icon="@drawable/ic_home_black_24dp" android:title="@string/title_vanban" /><item android:id="@+id/navigation_notifications" android:icon="@drawable/ic_library_books_black_24dp" android:title="@string/title_vanbanmuon" /><item android:id="@+id/navigation_notifications" android:icon="@drawable/ic_insert_chart_black_24dp" android:title="@string/title_thongke" /><item android:id="@+id/navigation_account" android:icon="@drawable/ic_supervisor_account_black_24dp" android:title="@string/title_taikhoan" /></menu>
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_tlvb"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_vanban" />
+
+  <item
+       android:id="@+id/navigation_vbmuon"
+       android:icon="@drawable/ic_library_books_black_24dp"
+       android:title="@string/title_vanbanmuon" />
+  
+    <item
+        android:id="@+id/navigation_thongke"
+        android:icon="@drawable/ic_insert_chart_black_24dp"
+        android:title="@string/title_thongke" />
+  
+    <item
+        android:id="@+id/navigation_nguoidung"
+        android:icon="@drawable/ic_supervisor_account_black_24dp"
+        android:title="@string/title_taikhoan" />
+
+</menu>
