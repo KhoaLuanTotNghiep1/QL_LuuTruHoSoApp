@@ -45,7 +45,7 @@ namespace QL_LuuTruHoSo
                 });
             }
 
-            taiLieuVanBanAdapter = new TaiLieuVanBanAdapter(this, mlist);
+            taiLieuVanBanAdapter = new TaiLieuVanBanAdapter(this, TLVBlist);
             TLVBlistView.SetAdapter(taiLieuVanBanAdapter);
 
             return view;
